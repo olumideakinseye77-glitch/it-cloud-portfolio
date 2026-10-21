@@ -1,27 +1,41 @@
-# Olu's IT & Cloud Portfolio
+# Olumide Akinseye | IT & Cloud Portfolio
 
-Hands-on Azure, Microsoft 365 and IT support portfolio featuring cloud infrastructure, identity management, automation and realistic troubleshooting scenarios.
+Hands-on projects in **Azure cloud engineering, Microsoft 365 and IT support**.
 
-## Explore the portfolio
+I bring an engineering and operations background to practical cloud and support labs. This portfolio records what I built, why I chose the approach, how I investigated problems and how I tested the results.
 
-| Area | Contents |
+## Explore
+
+| Area | Focus | Progress |
+| --- | --- | --- |
+| [Azure projects](azure-projects/README.md) | Infrastructure, networking, security and operations | Completed labs and an ongoing platform project |
+| [Microsoft 365](microsoft-365/README.md) | Identity, onboarding and access management | Planned |
+| [IT support](it-support/README.md) | Windows Server, Active Directory and troubleshooting | First scenario prepared |
+
+## Selected Azure projects
+
+| Project | What to review |
 | --- | --- |
-| [Azure projects](azure-projects/README.md) | Seven existing project repositories, organised in one index |
-| [Microsoft 365](microsoft-365/README.md) | Planned onboarding, identity and collaboration scenarios |
-| [IT support](it-support/README.md) | Planned Windows Server, Active Directory and help desk scenarios |
+| [Enterprise Azure Network](https://github.com/olumideakinseye77-glitch/azure-enterprise-network) | Hub-and-spoke design, private connectivity and network fault investigation |
+| [Identity, Security & Governance](https://github.com/olumideakinseye77-glitch/azure-identity-security-governance) | Least-privilege access, Key Vault and deliberate policy tests |
+| [Operations & Incident Lab](https://github.com/olumideakinseye77-glitch/azure-operations-incident-lab) | Linux service failures, Python health checks and verified recovery |
 
-The Azure index links to the original repositories, where their source code and history remain. New support and Microsoft 365 lab work will be documented here.
+[View all seven Azure projects →](azure-projects/README.md)
 
-## Current assignment
+## Currently building
 
-[Scenario 001 — Onboard Sarah in Finance](it-support/01-windows-active-directory/scenario-001-finance-onboarding.md).
+**IT support: Sarah joins Finance.** Set up a company login and department-folder access, verify authorised and denied access, then investigate an access failure.
 
-Status: brief prepared; environment setup and implementation not yet verified.
+[Read the assignment](it-support/01-windows-active-directory/scenario-001-finance-onboarding.md) · [Project tracker](PROJECT-TRACKER.md)
 
-## How I record my work
+Environment setup and implementation are pending. The Azure Landing Zone & Self-Service Platform is also in development.
 
-Each simulated assignment records the business request, investigation, changes, evidence and verification. Planned work is labelled separately from completed work. These are independent lab projects.
+## Skills demonstrated in the Azure labs
 
-[Project tracker](PROJECT-TRACKER.md) · [Ticket template](it-support/tickets/TEMPLATE.md)
+Azure networking · Linux · Terraform/HCL · Python · Bash · Git/GitHub · GitHub Actions · Entra ID & RBAC · Azure Policy · Key Vault · Azure Monitor & KQL
 
-Publish only fictional users and redacted evidence. Keep passwords, tokens, private keys, Terraform state, virtual-machine images and tenant data out of this repository.
+## About the evidence
+
+These are independent portfolio labs. Each project documents its implementation, test results and limitations. Completion refers to the recorded lab scope; it does not imply a currently running service. Some deployments were removed after testing to control costs.
+
+Source code and commit history live in the individual Azure repositories. Microsoft 365 and IT support exercises are documented here as they are completed. All published support scenarios use fictional users and redacted evidence.
