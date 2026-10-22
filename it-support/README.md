@@ -4,6 +4,12 @@ Status: planned; project documentation prepared, technical work not yet verified
 
 Fictional company: Olu Office Services, with IT, Finance and Sales departments.
 
+## Project briefs
+
+- [Project 2 — Windows Server & Active Directory](01-windows-active-directory/README.md)
+- [Project 3 — Help Desk & Troubleshooting](02-help-desk/README.md)
+- [View the three support projects](../SUPPORT-PROJECTS.md)
+
 ## Assignments
 
 1. [Windows Server & Active Directory — Sarah joins Finance](01-windows-active-directory/scenario-001-finance-onboarding.md).

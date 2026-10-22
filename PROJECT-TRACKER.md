@@ -18,8 +18,8 @@
 
 | Area | Assignment | Progress | Next action |
 | --- | --- | --- | --- |
-| Windows & Active Directory | [Sarah joins Finance](it-support/01-windows-active-directory/scenario-001-finance-onboarding.md) | Brief prepared | Record laptop resources and choose lab environment |
-| Microsoft 365 | Joiner, mover and leaver scenarios | Planned | Confirm test tenant and licences |
-| Help desk | Troubleshooting incidents | Planned | Establish a working Windows lab |
+| Windows & Active Directory | [Domain and permissions lab](it-support/01-windows-active-directory/README.md) | Brief prepared | Record laptop resources and choose lab environment |
+| Microsoft 365 | [Employee lifecycle](microsoft-365/01-employee-lifecycle/README.md) | Setup in progress; tenant and licences unconfirmed | Resolve consumer-account sign-in issue and complete lab signup |
+| Help desk | [Ten-ticket troubleshooting lab](it-support/02-help-desk/README.md) | Brief prepared | Start ticket records as the first lab becomes available |
 
 Azure progress is based on project READMEs reviewed on 21 October 2026; no live resources were retested for this tracker. Update support status after performing work and capturing evidence.

@@ -22,11 +22,17 @@ I bring an engineering and operations background to practical cloud and support 
 
 [View all seven Azure projects →](azure-projects/README.md)
 
+## IT support project plan
+
+Three business-scenario projects complement the Azure work: Microsoft 365 employee lifecycle, Windows Server & Active Directory, and help desk troubleshooting.
+
+[View the projects and recommended order](SUPPORT-PROJECTS.md)
+
 ## Currently building
 
-**IT support: Sarah joins Finance.** Set up a company login and department-folder access, verify authorised and denied access, then investigate an access failure.
+**Microsoft 365: Sarah joins Finance.** Establish the test tenant, provide email and team access, secure sign-in, and verify permissions.
 
-[Read the assignment](it-support/01-windows-active-directory/scenario-001-finance-onboarding.md) · [Project tracker](PROJECT-TRACKER.md)
+[Read the assignment](microsoft-365/01-employee-lifecycle/README.md) · [Project tracker](PROJECT-TRACKER.md)
 
 Environment setup and implementation are pending. The Azure Landing Zone & Self-Service Platform is also in development.
 

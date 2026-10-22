@@ -4,6 +4,12 @@ Status: planned; tenant access and licences not yet confirmed.
 
 Fictional company: Olu Office Services. Use test accounts in a tenant you administer.
 
+## Project brief
+
+[Project 1 — Microsoft 365 Employee Lifecycle](01-employee-lifecycle/README.md) includes business requests, acceptance tests and evidence requirements.
+
+[View the three support projects](../SUPPORT-PROJECTS.md).
+
 ## Business assignments
 
 1. A new starter needs an account, appropriate licence, MFA and access to their team's resources.
