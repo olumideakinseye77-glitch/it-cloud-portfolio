@@ -19,7 +19,7 @@
 | Area | Assignment | Progress | Next action |
 | --- | --- | --- | --- |
 | Windows & Active Directory | [Domain and permissions lab](it-support/01-windows-active-directory/README.md) | Brief prepared | Record laptop resources and choose lab environment |
-| Microsoft 365 | [Employee lifecycle](microsoft-365/01-employee-lifecycle/README.md) | Setup in progress; tenant and licences unconfirmed | Resolve consumer-account sign-in issue and complete lab signup |
-| Help desk | [Ten-ticket troubleshooting lab](it-support/02-help-desk/README.md) | Brief prepared | Start ticket records as the first lab becomes available |
+| Microsoft 365 | [Employee lifecycle](microsoft-365/01-employee-lifecycle/README.md) | Account and email milestone passed; project in progress | Create private Finance workspace and test permissions |
+| Help desk | [Ten-ticket troubleshooting lab](it-support/02-help-desk/README.md) | [First sign-in incident resolved](it-support/tickets/HD-001-new-starter-sign-in.md) | Continue troubleshooting records as lab work progresses |
 
 Azure progress is based on project READMEs reviewed on 21 October 2026; no live resources were retested for this tracker. Update support status after performing work and capturing evidence.
