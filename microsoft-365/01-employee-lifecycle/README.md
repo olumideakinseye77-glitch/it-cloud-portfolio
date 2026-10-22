@@ -24,7 +24,8 @@ Agreed fictional requirements: Sarah needs email, MFA, and read/write access to 
 - [x] Create Alex's test account (operator confirmed).
 - [ ] Read back Sarah's and Alex's department fields.
 - [x] Assign Sarah an available Business Premium licence.
-- [ ] Establish and test MFA registration for the test accounts.
+- [x] Register Microsoft Authenticator for Sarah and test a fresh-session sign-in approval (operator confirmed).
+- [ ] Establish and test MFA for Alex.
 - [x] Create Finance Lab and change its privacy from Public to Private after an access test.
 - [ ] Grant Finance access through group membership.
 - [x] Create and save the Finance Welcome document.
@@ -51,7 +52,7 @@ After the healthy baseline is recorded, remove one test membership and investiga
 | Test | Expected | Actual | Evidence |
 | --- | --- | --- | --- |
 | Sarah uses email | Test message sent and received | Passed — operator confirmed internal delivery both ways | [Validation record](progress.md) |
-| Sarah completes MFA registration | Successful registration and a recorded challenge test | Pending | Pending |
+| Sarah completes MFA registration | Successful registration and a recorded challenge test | Passed — operator confirmed registration and Authenticator approval during fresh-session sign-in | [Validation record](progress.md) |
 | Sarah edits Finance document | Allowed | Passed — operator confirmed edit/save and post-fix access | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Alex opens Finance document | Denied | Passed after Public-to-Private correction | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Sarah moves to Sales | Sales access allowed; Finance denied | Pending | Pending |
