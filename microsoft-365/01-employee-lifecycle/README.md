@@ -2,7 +2,7 @@
 
 [Portfolio home](../../README.md) · [Support project plan](../../SUPPORT-PROJECTS.md)
 
-Status: in progress — Sarah's account, sign-in, password change and internal email tested. See [validation progress](progress.md).
+Status: in progress — Sarah's account, email and Finance document access tested; Alex's denied-access test passed after correcting group privacy. See [validation progress](progress.md).
 Company: Olu Office Services (fictional).
 
 ## Business request
@@ -21,15 +21,16 @@ Agreed fictional requirements: Sarah needs email, MFA, and read/write access to 
 
 - [x] Confirm administrator access and available licences.
 - [x] Create Sarah's account.
-- [ ] Verify Sarah's department fields and create Alex's Sales account.
+- [x] Create Alex's test account (operator confirmed).
+- [ ] Read back Sarah's and Alex's department fields.
 - [x] Assign Sarah an available Business Premium licence.
 - [ ] Establish and test MFA registration for the test accounts.
-- [ ] Create department groups and a private Finance document area.
+- [x] Create Finance Lab and change its privacy from Public to Private after an access test.
 - [ ] Grant Finance access through group membership.
-- [ ] Add a fictional welcome document.
+- [x] Create and save the Finance Welcome document.
 - [x] Test Sarah's sign-in, password change and internal email in both directions.
-- [ ] Test Sarah's Finance document read/write access.
-- [ ] Test that Alex is denied access.
+- [x] Test Sarah's Finance document read/write access after the privacy fix.
+- [x] Test that Alex is denied access in a separate browser session.
 
 Use separate browser sessions for administrator and employee tests. Record the method used for MFA and access management.
 
@@ -51,8 +52,8 @@ After the healthy baseline is recorded, remove one test membership and investiga
 | --- | --- | --- | --- |
 | Sarah uses email | Test message sent and received | Passed — operator confirmed internal delivery both ways | [Validation record](progress.md) |
 | Sarah completes MFA registration | Successful registration and a recorded challenge test | Pending | Pending |
-| Sarah edits Finance document | Allowed | Pending | Pending |
-| Alex opens Finance document | Denied | Pending | Pending |
+| Sarah edits Finance document | Allowed | Passed — operator confirmed edit/save and post-fix access | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
+| Alex opens Finance document | Denied | Passed after Public-to-Private correction | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Sarah moves to Sales | Sales access allowed; Finance denied | Pending | Pending |
 | Alex leaves | Sign-in blocked; session-revocation action recorded | Pending | Pending |
 | Missing access is repaired | Intended access restored; unrelated access still denied | Pending | Pending |
