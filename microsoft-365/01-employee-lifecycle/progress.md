@@ -2,7 +2,7 @@
 
 [Project brief](README.md) · [Sign-in incident](../../it-support/tickets/HD-001-new-starter-sign-in.md)
 
-Status: account and email milestone complete; wider employee-lifecycle project in progress.
+Status: account, email and Finance document access milestones complete; wider employee-lifecycle project in progress.
 
 ## Results
 
@@ -31,11 +31,16 @@ PowerShell results were supplied during the guided session. Sign-in, password ch
 
 Account sign-in and a password change do not prove MFA registration or enforcement. Internal delivery does not prove external email delivery.
 
+## Finance access validation
+
+The operator created Finance Lab and a Finance Welcome document. Sarah's edit/save test succeeded. Alex could initially open the document and type; the group was found to be Public. After changing it to Private, the operator tested Alex in a separate Guest browser session and received an account-specific access denial. Sarah's access was then retested successfully.
+
+[HD-002 — Finance privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) records the issue, browser-session confusion, fix and retests. These are operator-confirmed results, not an independent permission audit. Effective group membership and sharing-link configuration still need explicit review.
+
 ## Remaining tests
 
 - MFA registration and challenge.
-- Private Finance workspace and Sarah's document read/write access.
-- Alex's account and denied Finance access.
+- Final membership/sharing-link review and department-field readback.
 - Department move and offboarding.
 - The planned permissions incident.
 
@@ -43,4 +48,4 @@ Trial expiry and recurring-billing settings remain to be verified from the subsc
 
 ## Next request
 
-Create a private Finance Microsoft 365 group, with the lab administrator as owner and Sarah as member, then test its document workspace.
+Verify MFA registration and a fresh-session challenge for Sarah.
