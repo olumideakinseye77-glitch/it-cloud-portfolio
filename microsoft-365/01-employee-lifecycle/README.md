@@ -2,7 +2,7 @@
 
 [Portfolio home](../../README.md) · [Support project plan](../../SUPPORT-PROJECTS.md)
 
-Status: planned; tenant setup in progress, administrator access and licences unconfirmed.
+Status: in progress — Sarah's account, sign-in, password change and internal email tested. See [validation progress](progress.md).
 Company: Olu Office Services (fictional).
 
 ## Business request
@@ -19,14 +19,16 @@ This is a cloud identity lab. It does not assume connection to the separate Wind
 
 Agreed fictional requirements: Sarah needs email, MFA, and read/write access to Finance documents. Alex in Sales must have no access to Finance documents. Neither employee needs an administrator role.
 
-- [ ] Confirm administrator access and available licences.
-- [ ] Create Sarah and Alex, with Finance/Sales department information.
-- [ ] Assign only the licences needed for the selected exercises.
+- [x] Confirm administrator access and available licences.
+- [x] Create Sarah's account.
+- [ ] Verify Sarah's department fields and create Alex's Sales account.
+- [x] Assign Sarah an available Business Premium licence.
 - [ ] Establish and test MFA registration for the test accounts.
 - [ ] Create department groups and a private Finance document area.
 - [ ] Grant Finance access through group membership.
 - [ ] Add a fictional welcome document.
-- [ ] Test Sarah's email and read/write access.
+- [x] Test Sarah's sign-in, password change and internal email in both directions.
+- [ ] Test Sarah's Finance document read/write access.
 - [ ] Test that Alex is denied access.
 
 Use separate browser sessions for administrator and employee tests. Record the method used for MFA and access management.
@@ -47,7 +49,7 @@ After the healthy baseline is recorded, remove one test membership and investiga
 
 | Test | Expected | Actual | Evidence |
 | --- | --- | --- | --- |
-| Sarah uses email | Test message sent and received | Pending | Pending |
+| Sarah uses email | Test message sent and received | Passed — operator confirmed internal delivery both ways | [Validation record](progress.md) |
 | Sarah completes MFA registration | Successful registration and a recorded challenge test | Pending | Pending |
 | Sarah edits Finance document | Allowed | Pending | Pending |
 | Alex opens Finance document | Denied | Pending | Pending |
