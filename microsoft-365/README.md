@@ -1,6 +1,6 @@
 # Microsoft 365 & Entra ID Lab
 
-Status: planned; tenant access and licences not yet confirmed.
+Status: in progress — account creation, licensing, sign-in and internal email tested. [Read the validation record](01-employee-lifecycle/progress.md).
 
 Fictional company: Olu Office Services. Use test accounts in a tenant you administer.
 
