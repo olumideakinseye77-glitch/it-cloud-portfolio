@@ -2,7 +2,7 @@
 
 [Project brief](README.md) · [Sign-in incident](../../it-support/tickets/HD-001-new-starter-sign-in.md)
 
-Status: account, email and Finance document access milestones complete; wider employee-lifecycle project in progress.
+Status: account, email, Sarah's MFA and Finance document access milestones complete; wider employee-lifecycle project in progress.
 
 ## Results
 
@@ -29,7 +29,7 @@ The user-creation request specified Finance, Finance Assistant and GB usage loca
 
 PowerShell results were supplied during the guided session. Sign-in, password change, mailbox access and message delivery were confirmed by the operator. No screenshots of mailbox messages or exported sign-in logs are committed at this checkpoint. The assistant did not independently sign into the tenant.
 
-Account sign-in and a password change do not prove MFA registration or enforcement. Internal delivery does not prove external email delivery.
+Sarah's MFA was tested separately as described below; password changes alone are not MFA evidence. Internal delivery does not prove external email delivery.
 
 ## Finance access validation
 
@@ -37,9 +37,15 @@ The operator created Finance Lab and a Finance Welcome document. Sarah's edit/sa
 
 [HD-002 — Finance privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) records the issue, browser-session confusion, fix and retests. These are operator-confirmed results, not an independent permission audit. Effective group membership and sharing-link configuration still need explicit review.
 
+## MFA validation
+
+On 22 October 2026, the operator confirmed Microsoft Authenticator registration for Sarah. After being instructed to use a fresh browser session, the operator confirmed that sign-in requested and accepted an Authenticator approval and then succeeded.
+
+Evidence basis: operator reports from the guided session. No QR codes, approval codes or authentication secrets are retained. This records one successful MFA challenge; the underlying enforcement policy and sign-in logs have not been independently inspected. Alex's MFA remains unverified.
+
 ## Remaining tests
 
-- MFA registration and challenge.
+- Alex's MFA registration and challenge; review the policy responsible for Sarah's challenge.
 - Final membership/sharing-link review and department-field readback.
 - Department move and offboarding.
 - The planned permissions incident.
@@ -48,4 +54,4 @@ Trial expiry and recurring-billing settings remain to be verified from the subsc
 
 ## Next request
 
-Verify MFA registration and a fresh-session challenge for Sarah.
+Create a private Sales workspace, move Sarah from Finance to Sales, and verify Sales access plus Finance denial.
