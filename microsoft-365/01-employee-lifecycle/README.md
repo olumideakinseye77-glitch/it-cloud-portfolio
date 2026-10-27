@@ -5,6 +5,10 @@
 Status: core joiner/mover/leaver scenarios and missing-access exercise completed; unperformed checks remain explicit below. [Final handover](HANDOVER.md). See [validation progress](progress.md).
 Company: Olu Office Services (fictional).
 
+## Visual walkthrough
+
+[View the employee lifecycle and troubleshooting diagrams](DIAGRAMS.md) — a visual guide to the completed work, three incidents and interview talking points.
+
 ## Business request
 
 “We are a small company with Finance and Sales teams. New employees need email and access to their team's documents. Staff changing teams must lose unnecessary access, and leavers must no longer be able to sign in.”
