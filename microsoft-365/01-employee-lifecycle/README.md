@@ -2,7 +2,7 @@
 
 [Portfolio home](../../README.md) · [Support project plan](../../SUPPORT-PROJECTS.md)
 
-Status: in progress — Sarah's account, email and Finance document access tested; Alex's denied-access test passed after correcting group privacy. See [validation progress](progress.md).
+Status: joiner, mover and leaver milestones tested; final evidence and permissions review in progress. See [validation progress](progress.md).
 Company: Olu Office Services (fictional).
 
 ## Business request
@@ -58,7 +58,7 @@ After the healthy baseline is recorded, remove one test membership and investiga
 | Sarah edits Finance document | Allowed | Passed — operator confirmed edit/save and post-fix access | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Alex opens Finance document | Denied | Passed after Public-to-Private correction | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Sarah moves to Sales | Sales access allowed; Finance denied | Passed — operator confirmed Sales edit/save and Finance denial on 27 October 2026 | [Validation record](progress.md) |
-| Alex leaves | Sign-in blocked; session-revocation action recorded | Pending | Pending |
+| Alex leaves | Sign-in blocked; session-revocation action recorded | Passed — operator confirmed blocking, session sign-out, membership removal and fresh sign-in rejection on 27 October 2026 | [Validation record](progress.md) |
 | Missing access is repaired | Intended access restored; unrelated access still denied | Pending | Pending |
 
 ## Deliverables
