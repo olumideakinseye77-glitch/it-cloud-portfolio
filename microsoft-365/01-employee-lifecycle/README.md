@@ -2,7 +2,7 @@
 
 [Portfolio home](../../README.md) · [Support project plan](../../SUPPORT-PROJECTS.md)
 
-Status: joiner, mover and leaver milestones tested; final evidence and permissions review in progress. See [validation progress](progress.md).
+Status: core joiner/mover/leaver scenarios and missing-access exercise completed; unperformed checks remain explicit below. [Final handover](HANDOVER.md). See [validation progress](progress.md).
 Company: Olu Office Services (fictional).
 
 ## Business request
@@ -27,7 +27,7 @@ Agreed fictional requirements: Sarah needs email, MFA, and read/write access to 
 - [x] Register Microsoft Authenticator for Sarah and test a fresh-session sign-in approval (operator confirmed).
 - [ ] Establish and test MFA for Alex.
 - [x] Create Finance Lab and change its privacy from Public to Private after an access test.
-- [ ] Grant Finance access through group membership.
+- [x] Review group membership/privacy; Sarah's access transitioned from Finance to Sales (operator confirmed).
 - [x] Create and save the Finance Welcome document.
 - [x] Test Sarah's sign-in, password change and internal email in both directions.
 - [x] Test Sarah's Finance document read/write access after the privacy fix.
@@ -59,7 +59,7 @@ After the healthy baseline is recorded, remove one test membership and investiga
 | Alex opens Finance document | Denied | Passed after Public-to-Private correction | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Sarah moves to Sales | Sales access allowed; Finance denied | Passed — operator confirmed Sales edit/save and Finance denial on 27 October 2026 | [Validation record](progress.md) |
 | Alex leaves | Sign-in blocked; session-revocation action recorded | Passed — operator confirmed blocking, session sign-out, membership removal and fresh sign-in rejection on 27 October 2026 | [Validation record](progress.md) |
-| Missing access is repaired | Intended access restored; unrelated access still denied | Pending | Pending |
+| Missing Sales access is repaired | Denial after membership removal; edit/save after restoration | Passed — operator confirmed controlled fault and recovery | [Membership incident](../../it-support/tickets/HD-003-sales-membership-recovery.md) |
 
 ## Deliverables
 
@@ -69,6 +69,6 @@ Create a joiner/mover/leaver checklist, a configuration summary, test evidence a
 
 Explain why access was assigned through groups, how you checked the employee experience, and why removing a licence alone is insufficient as a leaver workflow. Use your actual test results.
 
-## First session
+## Final review
 
-Complete tenant setup, record the available services and create the first fictional employee. Do not mark any tests complete until they have been performed.
+The core scenarios are complete. Alex's MFA, independent department readback, complete sharing-link audit and evidence screenshots remain unfinished; they are not claimed as completed. See [handover](HANDOVER.md) for the checklist, CV wording, retention decision and evidence limits.

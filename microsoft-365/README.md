@@ -1,6 +1,6 @@
 # Microsoft 365 & Entra ID Lab
 
-Status: in progress — account creation, licensing, sign-in and internal email tested. [Read the validation record](01-employee-lifecycle/progress.md).
+Status: core employee-lifecycle scenarios completed; additional checks and evidence improvements remain. [Project handover](01-employee-lifecycle/HANDOVER.md). [Read the validation record](01-employee-lifecycle/progress.md).
 
 Fictional company: Olu Office Services. Use test accounts in a tenant you administer.
 
@@ -16,12 +16,12 @@ Fictional company: Olu Office Services. Use test accounts in a tenant you admini
 2. An employee changes department: update access and verify old access is removed.
 3. An employee leaves: block sign-in, revoke sessions and remove access under a documented retention plan.
 
-## Evidence to collect
+## Evidence and follow-up
 
-- Joiner/mover/leaver checklist.
+- [Completed checklist and handover](01-employee-lifecycle/HANDOVER.md).
 - Redacted configuration screenshots.
 - Positive and negative access tests.
-- Troubleshooting records and verified outcomes.
+- Three incident records with operator-confirmed outcomes, linked from the handover.
 
 Features depend on the available tenant and licences. Confirm access and costs before provisioning. This cloud identity lab is separate from the Windows domain unless hybrid integration is actually implemented and tested.
 

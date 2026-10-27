@@ -2,7 +2,7 @@
 
 [Project brief](README.md) · [Sign-in incident](../../it-support/tickets/HD-001-new-starter-sign-in.md)
 
-Status: joiner, mover and leaver milestones tested; final evidence and permissions review remains.
+Status: core lifecycle scenarios, group review and membership-recovery exercise completed. Additional unperformed checks remain listed below. [Handover](HANDOVER.md).
 
 ## Results
 
@@ -57,14 +57,20 @@ The operator confirmed selecting Block sign-in, initiating Sign out of all sessi
 
 Evidence basis: operator reports from the guided session. Existing-session invalidation timing was not measured; this record does not claim all cached tokens became unusable immediately. Blocking sign-in does not erase files already downloaded.
 
-## Remaining tests
+## Final group review and recovery exercise — 27 October 2026
+
+The operator confirmed Finance Lab and Sales Lab were Private, the administrator remained an owner of both, Sarah was in Sales and absent from Finance membership/ownership, and Alex was absent from both.
+
+Sarah was then temporarily removed from Sales. The operator confirmed the denied-access test and, after re-adding her, confirmed restored document editing and saving. See [HD-003](../../it-support/tickets/HD-003-sales-membership-recovery.md). Finance denial was last confirmed during the department-transfer test, not separately after recovery.
+
+## Unperformed checks and evidence improvements
 
 - Alex's MFA registration and challenge; review the policy responsible for Sarah's challenge.
-- Final membership/sharing-link review and department-field readback.
-- The planned permissions incident.
+- Full document sharing-link inventory and independent department-field readback. Group membership/privacy was reviewed through operator confirmation.
+- Redacted test screenshots and sign-in/effective-permission exports.
 
 Trial expiry and recurring-billing settings remain to be verified from the subscription details; no cancellation or billing change is claimed.
 
-## Next request
+## Handover
 
-Review Sarah's Sales membership and Finance removal, inspect document sharing links, and finish the planned missing-access recovery exercise.
+[Review the final checklist, CV wording and evidence limits](HANDOVER.md). The Windows Server and wider ten-ticket help desk projects remain separate work.

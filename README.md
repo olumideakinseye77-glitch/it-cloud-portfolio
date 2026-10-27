@@ -9,8 +9,8 @@ I bring an engineering and operations background to practical cloud and support 
 | Area | Focus | Progress |
 | --- | --- | --- |
 | [Azure projects](azure-projects/README.md) | Infrastructure, networking, security and operations | Completed labs and an ongoing platform project |
-| [Microsoft 365](microsoft-365/README.md) | Identity, onboarding and access management | Planned |
-| [IT support](it-support/README.md) | Windows Server, Active Directory and troubleshooting | First scenario prepared |
+| [Microsoft 365](microsoft-365/README.md) | Identity, onboarding and access management | Core lifecycle lab completed; limits documented |
+| [IT support](it-support/README.md) | Windows Server, Active Directory and troubleshooting | Three support incidents documented; Windows lab planned |
 
 ## Selected Azure projects
 
@@ -28,13 +28,13 @@ Three business-scenario projects complement the Azure work: Microsoft 365 employ
 
 [View the projects and recommended order](SUPPORT-PROJECTS.md)
 
-## Currently building
+## Microsoft 365 support lab
 
-**Microsoft 365: Sarah joins Finance.** Establish the test tenant, provide email and team access, secure sign-in, and verify permissions.
+**Core lifecycle scenarios completed:** onboarding, Sarah's MFA, internal email, department access, a Finance-to-Sales transfer and Alex's offboarding. Three incident reports document sign-in and access troubleshooting.
 
-[Read the assignment](microsoft-365/01-employee-lifecycle/README.md) · [Project tracker](PROJECT-TRACKER.md)
+[Review the project handover and evidence limits](microsoft-365/01-employee-lifecycle/HANDOVER.md) · [Project tracker](PROJECT-TRACKER.md)
 
-Environment setup and implementation are pending. The Azure Landing Zone & Self-Service Platform is also in development.
+The Windows Server lab remains planned. The Azure Landing Zone & Self-Service Platform is in development.
 
 ## Skills demonstrated in the Azure labs
 

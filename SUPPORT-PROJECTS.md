@@ -2,7 +2,7 @@
 
 [Portfolio home](README.md) · [Azure projects](azure-projects/README.md)
 
-Three practical projects to complement the Azure portfolio. All use the fictional company Olu Office Services. Each brief describes work to perform; none claims completed implementation.
+Three practical projects to complement the Azure portfolio. All use the fictional company Olu Office Services. The Microsoft 365 core lab is now completed with documented limits; Windows and the wider help desk programme remain ongoing/planned.
 
 | Order | Project | Business outcome | Suggested effort |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ For each session: read one request, write what you would check, perform the work
 
 ## Start here
 
-Microsoft 365 account setup is the current task. A consumer-account permission error was encountered; business tenant access, trial activation and licences have not yet been confirmed. Once setup works, complete the first new-starter request. Record expiry and recurring-billing settings if a trial is used.
+The Microsoft 365 core lifecycle scenarios were completed through 27 October 2026. [Review the handover](microsoft-365/01-employee-lifecycle/HANDOVER.md) for the completed checklist, three incident reports and unperformed checks. The Windows Server lab is the next separate infrastructure project. Review the trial expiry and recurring-billing settings directly before the free period ends.
 
 Use the available Microsoft-provided domain for the lab; a custom domain purchase is not required by these briefs. GitHub stores your scripts, documentation and evidence. The cloud tenant and local virtual machines run separately.
 
