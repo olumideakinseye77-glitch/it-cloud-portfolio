@@ -43,15 +43,21 @@ On 22 October 2026, the operator confirmed Microsoft Authenticator registration 
 
 Evidence basis: operator reports from the guided session. No QR codes, approval codes or authentication secrets are retained. This records one successful MFA challenge; the underlying enforcement policy and sign-in logs have not been independently inspected. Alex's MFA remains unverified.
 
+## Department transfer — 27 October 2026
+
+The operator confirmed creating a Private Sales Lab Microsoft 365 group, adding Sarah, changing her department to Sales, and removing her from Finance membership (including checking owner status). A Sales Welcome document was created. The operator explicitly confirmed that Sarah could edit and save Sales Welcome while the original Finance Welcome document returned an access-denial result.
+
+Evidence basis: guided-session operator confirmations. No fresh permission export or screenshots were collected. These tests demonstrate the observed access transition, not an audit of all direct permissions and sharing links.
+
 ## Remaining tests
 
 - Alex's MFA registration and challenge; review the policy responsible for Sarah's challenge.
 - Final membership/sharing-link review and department-field readback.
-- Department move and offboarding.
+- Alex's offboarding, session revocation, membership removal and blocked-sign-in test.
 - The planned permissions incident.
 
 Trial expiry and recurring-billing settings remain to be verified from the subscription details; no cancellation or billing change is claimed.
 
 ## Next request
 
-Create a private Sales workspace, move Sarah from Finance to Sales, and verify Sales access plus Finance denial.
+Offboard Alex while retaining the lab account and data for the evidence review: block sign-in, revoke sessions, remove memberships and verify blocked access.
