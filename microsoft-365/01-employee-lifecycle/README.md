@@ -39,6 +39,8 @@ Use separate browser sessions for administrator and employee tests. Record the m
 
 The manager confirms Sarah no longer needs Finance access. Update her department and membership, then verify Sales access and loss of Finance access. Check for direct permissions or shared links that could preserve unwanted access.
 
+Department transfer performed and both access tests confirmed by the operator on 27 October 2026. See the validation record for evidence limits.
+
 ## Assignment C — Alex leaves
 
 The manager requests immediate access removal. Document a retention and ownership decision before deleting data or removing licences. Block sign-in, revoke sessions, remove relevant memberships and verify the account's access state. Record service/session delays and any test you cannot complete. Blocking an account does not undo previously downloaded files.
@@ -55,7 +57,7 @@ After the healthy baseline is recorded, remove one test membership and investiga
 | Sarah completes MFA registration | Successful registration and a recorded challenge test | Passed — operator confirmed registration and Authenticator approval during fresh-session sign-in | [Validation record](progress.md) |
 | Sarah edits Finance document | Allowed | Passed — operator confirmed edit/save and post-fix access | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
 | Alex opens Finance document | Denied | Passed after Public-to-Private correction | [Privacy incident](../../it-support/tickets/HD-002-finance-public-access.md) |
-| Sarah moves to Sales | Sales access allowed; Finance denied | Pending | Pending |
+| Sarah moves to Sales | Sales access allowed; Finance denied | Passed — operator confirmed Sales edit/save and Finance denial on 27 October 2026 | [Validation record](progress.md) |
 | Alex leaves | Sign-in blocked; session-revocation action recorded | Pending | Pending |
 | Missing access is repaired | Intended access restored; unrelated access still denied | Pending | Pending |
 
