@@ -2,7 +2,7 @@
 
 [Project brief](README.md) · [Sign-in incident](../../it-support/tickets/HD-001-new-starter-sign-in.md)
 
-Status: account, email, Sarah's MFA and Finance document access milestones complete; wider employee-lifecycle project in progress.
+Status: joiner, mover and leaver milestones tested; final evidence and permissions review remains.
 
 ## Results
 
@@ -49,15 +49,22 @@ The operator confirmed creating a Private Sales Lab Microsoft 365 group, adding 
 
 Evidence basis: guided-session operator confirmations. No fresh permission export or screenshots were collected. These tests demonstrate the observed access transition, not an audit of all direct permissions and sharing links.
 
+## Offboarding — 27 October 2026
+
+Lab retention decision: retain Alex's account, licence and data for the evidence review; no deletion, licence removal, data export or ownership transfer was performed or verified.
+
+The operator confirmed selecting Block sign-in, initiating Sign out of all sessions, reviewing/removing lab group memberships and attempting a fresh sign-in. The reported result was that the account was locked/blocked. The exact Microsoft error text and code were not supplied, so no particular error code is claimed.
+
+Evidence basis: operator reports from the guided session. Existing-session invalidation timing was not measured; this record does not claim all cached tokens became unusable immediately. Blocking sign-in does not erase files already downloaded.
+
 ## Remaining tests
 
 - Alex's MFA registration and challenge; review the policy responsible for Sarah's challenge.
 - Final membership/sharing-link review and department-field readback.
-- Alex's offboarding, session revocation, membership removal and blocked-sign-in test.
 - The planned permissions incident.
 
 Trial expiry and recurring-billing settings remain to be verified from the subscription details; no cancellation or billing change is claimed.
 
 ## Next request
 
-Offboard Alex while retaining the lab account and data for the evidence review: block sign-in, revoke sessions, remove memberships and verify blocked access.
+Review Sarah's Sales membership and Finance removal, inspect document sharing links, and finish the planned missing-access recovery exercise.
