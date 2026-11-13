@@ -4,6 +4,8 @@ Hands-on projects in **Azure cloud engineering, Microsoft 365 and IT support**.
 
 I bring an engineering and operations background to practical cloud and support labs. This portfolio records what I built, why I chose the approach, how I investigated problems and how I tested the results.
 
+[Interview guide](INTERVIEW-GUIDE.md) · [Project tracker](PROJECT-TRACKER.md)
+
 ## Explore
 
 | Area | Focus | Progress |
@@ -29,6 +31,11 @@ Three business-scenario projects complement the Azure work: Microsoft 365 employ
 [View the projects and recommended order](SUPPORT-PROJECTS.md)
 
 ## Microsoft 365 support lab
+
+[View the lifecycle and troubleshooting diagrams](microsoft-365/01-employee-lifecycle/DIAGRAMS.md) · [Review the lab evidence](microsoft-365/01-employee-lifecycle/HANDOVER.md)
+
+<details>
+<summary>Show the Microsoft 365 lab diagrams</summary>
 
 ```mermaid
 flowchart TD
@@ -83,6 +90,8 @@ flowchart TD
     class A2,B2,C2 fix;
     class A3,B3,C3 passed;
 ```
+
+</details>
 
 ## Skills demonstrated in the Azure labs
 

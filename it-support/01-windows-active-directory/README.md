@@ -46,4 +46,8 @@ The client joins the domain; the right employee can access Finance while another
 
 ## Interview practice
 
-Explain how you would investigate Access denied, how DNS affects domain logins and when you would escalate an account problem.
+“I set up DC01 in VirtualBox, created the domain and organised Finance, Sales and IT. I used organisational units to structure directory objects and security groups to represent department access. I paused after configuring the groups and memberships. The workstation and permission tests are still open.”
+
+**Why groups and OUs?** I can assign access to a department security group and update membership as people move. OUs organise objects, let me target Group Policy and support delegated administration. I'd use Entra ID for cloud identity and cloud application access. This lab was specifically for Windows domain, DNS and Group Policy fundamentals.
+
+[More interview examples](../../INTERVIEW-GUIDE.md)

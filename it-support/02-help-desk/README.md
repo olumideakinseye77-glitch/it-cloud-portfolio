@@ -2,7 +2,7 @@
 
 [Portfolio home](../../README.md) · [Support project plan](../../SUPPORT-PROJECTS.md)
 
-Status: planned. Work through this project alongside the Microsoft 365 and Windows labs.
+**Status:** Three Microsoft 365 incidents resolved and documented. The remaining ticket scenarios are planned.
 Company: Olu Office Services (fictional).
 
 ## Business request
@@ -15,20 +15,17 @@ Use Markdown ticket files in this repository and the existing [ticket template](
 
 Define open, investigating, waiting, resolved and closed states. Separate incidents from service requests. Give each ticket an impact, urgency and explained priority. Service targets may be fictional, but label them as lab targets and record actual elapsed time without inventing SLA performance.
 
-## Incident queue
+## Resolved incidents
 
-| Ticket | User report | Lab dependency |
-| --- | --- | --- |
-| HD-001 | “I cannot sign in to my work account.” | Microsoft 365 or Windows |
-| HD-002 | “My account keeps locking.” | Windows domain |
-| HD-003 | “I can open Finance but cannot save a file.” | Windows or SharePoint permissions |
-| HD-004 | “Other sites work, but the company resource does not.” | Isolated network/DNS lab |
-| HD-005 | “My Windows PC has become slow.” | Windows test client |
-| HD-006 | “The application will not open.” | Windows test client |
-| HD-007 | “I have no mailbox after joining.” | Microsoft 365 email service |
-| HD-008 | “My team files have disappeared.” | SharePoint or Teams, if licensed |
-| HD-009 | “A colleague has moved department.” | Service request using either identity lab |
-| HD-010 | “An employee is leaving today.” | Leaver service request |
+| Ticket | What I verified |
+| --- | --- |
+| [HD-001 — New-starter sign-in](../tickets/HD-001-new-starter-sign-in.md) | A password reset restored sign-in and internal email. The original cause was unresolved. |
+| [HD-002 — Finance privacy](../tickets/HD-002-finance-public-access.md) | Changing the group to Private denied Alex access while Sarah retained editing access. |
+| [HD-003 — Sales membership](../tickets/HD-003-sales-membership-recovery.md) | A controlled group membership removal denied Sarah access. Restoring membership let her edit and save. |
+
+## Planned scenarios
+
+Windows DNS, Finance share permissions, Group Policy, account lockout, slow workstation, application startup and mailbox provisioning. Assign ticket numbers as cases are recorded.
 
 Introduce a reversible fault only after recording healthy behaviour. Use a bounded, reversible workload for a slow-PC simulation; do not fill a disk or destabilise your actual laptop. If a scenario cannot be reproduced, label it a tabletop exercise and keep it separate from hands-on results.
 
@@ -57,4 +54,8 @@ At least five tickets include reproducible hands-on evidence from your labs, and
 
 ## Interview practice
 
-Talk through a ticket without jumping straight to the fix. Explain your first check, how evidence changed your hypothesis, how you confirmed recovery and when you would escalate.
+“I tested access as the affected user, confirmed the signed-in identity and found that the Finance group was Public. I switched it to Private, tested Alex in a fresh session and verified that Sarah could still edit. That gave me an allow and a deny result after the change.”
+
+**Why a fresh browser session?** The existing session reused the administrator's identity. A clean session let me verify access as Alex. For a wider audit I'd also inspect direct grants and sharing links.
+
+[More interview examples](../../INTERVIEW-GUIDE.md)

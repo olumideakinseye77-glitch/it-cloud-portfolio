@@ -16,6 +16,18 @@ Fictional company: Olu Office Services. Use test accounts in a tenant you admini
 2. An employee changes department: update access and verify old access is removed.
 3. An employee leaves: block sign-in, revoke sessions and remove access under a documented retention plan.
 
+## Interview walkthrough
+
+“I created and licensed a test user with Microsoft Graph PowerShell, verified sign-in, MFA approval and email, then used Microsoft 365 groups and SharePoint to test a move between departments. During offboarding I blocked a separate user's fresh sign-in and initiated session sign-out.”
+
+| Choice | Why it fit the lab |
+| --- | --- |
+| Microsoft Graph PowerShell and admin centres | Graph gave me repeatable account and licence commands. The admin centres let me inspect settings and perform targeted support actions. |
+| Private Microsoft 365 groups and SharePoint | Group membership matched department access. Assigning permissions document by document would make a department transfer harder to review. |
+| Block sign-in and retain the account for review | This let me verify fresh sign-in was denied while preserving lab data. I did not measure when existing sessions expired. |
+
+[Diagrams and full interview walkthrough](01-employee-lifecycle/DIAGRAMS.md) · [Portfolio interview guide](../INTERVIEW-GUIDE.md)
+
 ## Evidence and follow-up
 
 - [Completed checklist and handover](01-employee-lifecycle/HANDOVER.md).

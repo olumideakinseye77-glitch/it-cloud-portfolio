@@ -46,4 +46,4 @@ Operator confirmations and pasted access-denial text from the guided session. No
 
 ## Follow-up
 
-Confirm the final group membership and sharing-link configuration, and capture redacted evidence if needed. The separate planned missing-membership exercise remains unperformed.
+Confirm the final group membership and sharing-link configuration, and capture redacted evidence if needed. The later membership-recovery exercise is documented in [HD-003](HD-003-sales-membership-recovery.md).
