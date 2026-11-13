@@ -1,6 +1,6 @@
 # IT Support & Infrastructure Lab
 
-Status: planned; project documentation prepared, technical work not yet verified.
+Status: Windows Server & Active Directory lab paused after the initial domain and group setup. Three Microsoft 365 support incidents are documented.
 
 Fictional company: Olu Office Services, with IT, Finance and Sales departments.
 

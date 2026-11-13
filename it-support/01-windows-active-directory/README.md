@@ -2,7 +2,7 @@
 
 [Portfolio home](../../README.md) · [Support project plan](../../SUPPORT-PROJECTS.md)
 
-Status: planned; environment not yet verified.
+**Status: Paused after the initial Active Directory build.**
 Company: Olu Office Services (fictional).
 
 ## Business request
@@ -11,9 +11,17 @@ Company: Olu Office Services (fictional).
 
 ## Environment
 
-Use an isolated Windows Server lab and a domain-capable Windows client. The proposed server is DC01, client CLIENT01 and domain olu-lab.test. Confirm laptop resources, virtualisation support and legitimate installation media before choosing the local setup. An 8 GB laptop may need an alternative arrangement.
+DC01 runs in a local VirtualBox VM with a static IP and hosts the `olu-lab.test` Active Directory domain. `CLIENT01` is the intended workstation for client-side validation.
 
 This Windows domain is separate from the Microsoft 365 tenant unless hybrid integration is deliberately implemented later.
+
+## Checkpoint
+
+- Installed and renamed DC01, set a static IP, and created the Active Directory domain.
+- Created the Olu Office Services organisational structure with Finance, Sales and IT OUs.
+- Created the fictional accounts and department security groups. Sarah was added to `GG_Finance` and Alex to `GG_Sales`.
+
+The GitHub record is a setup summary. Evidence for DNS service discovery, the client domain join and sign-in, Finance share permissions, and client-side Group Policy enforcement is pending. The related Windows troubleshooting exercises are still open.
 
 ## Assignments
 

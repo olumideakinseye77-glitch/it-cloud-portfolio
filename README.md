@@ -10,7 +10,7 @@ I bring an engineering and operations background to practical cloud and support 
 | --- | --- | --- |
 | [Azure projects](azure-projects/README.md) | Infrastructure, networking, security and operations | Completed labs and an ongoing platform project |
 | [Microsoft 365](microsoft-365/README.md) | Identity, onboarding and access management | Core lifecycle lab completed; limits documented |
-| [IT support](it-support/README.md) | Windows Server, Active Directory and troubleshooting | Three support incidents documented; Windows lab planned |
+| [IT support](it-support/README.md) | Windows Server, Active Directory and troubleshooting | Three support incidents documented. Windows Server lab paused after domain and group setup. |
 
 ## Selected Azure projects
 

@@ -1,7 +1,7 @@
 # Scenario 001 — Sarah Joins Finance
 
 Type: simulated service request.
-Status: open — lab not yet provisioned.
+Status: paused after provisioning DC01 and adding the fictional users to their department groups. End-to-end acceptance evidence is pending.
 Company: Olu Office Services.
 
 ## Manager's request
@@ -16,9 +16,9 @@ Sarah starts in Finance on Monday. She needs a company login and access to the F
 - Demonstrate that Sarah can access Finance and a Sales user cannot.
 - Record what you built and the test results.
 
-## First task — environment assessment
+## Environment assessment checklist
 
-Do not install or provision anything until these facts are recorded:
+Use this checklist when documenting the existing environment or rebuilding it:
 
 - Laptop operating system and processor:
 - Total and available RAM:
@@ -31,7 +31,7 @@ Do not install or provision anything until these facts are recorded:
 
 An 8 GB laptop may struggle to run both a server and client together. Choose a workable environment before continuing. GitHub stores documentation and scripts, not running VMs or their disk images.
 
-## Proposed lab
+## Lab design
 
 - Server: DC01, with Active Directory Domain Services and DNS.
 - Client: CLIENT01, with a Windows edition that supports domain joining.
@@ -40,7 +40,7 @@ An 8 GB laptop may struggle to run both a server and client together. Choose a w
 - Separate department groups and a Finance shared folder.
 - Private lab network. No real employer systems or accounts.
 
-Treat this as a proposed design until implemented.
+DC01, the domain and department group memberships are in place. Client and share acceptance evidence remains pending.
 
 ## Acceptance tests
 

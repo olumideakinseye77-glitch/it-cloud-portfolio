@@ -2,12 +2,12 @@
 
 [Portfolio home](README.md) · [Azure projects](azure-projects/README.md)
 
-Three practical projects to complement the Azure portfolio. All use the fictional company Olu Office Services. The Microsoft 365 core lab is now completed with documented limits; Windows and the wider help desk programme remain ongoing/planned.
+Three practical projects to complement the Azure portfolio. All use the fictional company Olu Office Services. The Microsoft 365 core lab is complete. Windows Server & Active Directory is paused at its current lab checkpoint. The help desk project has three documented Microsoft 365 incidents.
 
 | Order | Project | Business outcome | Suggested effort |
 | --- | --- | --- | --- |
 | 1 | [Microsoft 365 Employee Lifecycle](microsoft-365/01-employee-lifecycle/README.md) | Give employees the right accounts, email and team access; remove access when they leave | 4–6 focused sessions after tenant setup |
-| 2 | [Windows Server & Active Directory](it-support/01-windows-active-directory/README.md) | Manage domain logins, department permissions and basic workstation policy | 4–6 sessions, depending on laptop resources |
+| 2 | [Windows Server & Active Directory](it-support/01-windows-active-directory/README.md) | Manage domain logins, department permissions and basic workstation policy | Paused after domain and group setup |
 | 3 | [Help Desk & Troubleshooting](it-support/02-help-desk/README.md) | Investigate incidents, communicate updates and prove recovery | Build alongside Projects 1 and 2 |
 
 Session estimates assume approximately 45–60 minutes and are planning estimates, not deadlines. Finish one assignment and record its evidence before taking on the next.
@@ -27,7 +27,7 @@ For each session: read one request, write what you would check, perform the work
 
 ## Start here
 
-The Microsoft 365 core lifecycle scenarios were completed through 27 October 2026. [Review the handover](microsoft-365/01-employee-lifecycle/HANDOVER.md) for the completed checklist, three incident reports and unperformed checks. The Windows Server lab is the next separate infrastructure project. Review the trial expiry and recurring-billing settings directly before the free period ends.
+The Microsoft 365 core lifecycle scenarios were completed through 27 October 2026. [Review the handover](microsoft-365/01-employee-lifecycle/HANDOVER.md) for the completed checklist, three incident reports and unperformed checks. The [Windows Server checkpoint](it-support/01-windows-active-directory/README.md) records the work completed and the tests pending when the lab was paused.
 
 Use the available Microsoft-provided domain for the lab; a custom domain purchase is not required by these briefs. GitHub stores your scripts, documentation and evidence. The cloud tenant and local virtual machines run separately.
 
